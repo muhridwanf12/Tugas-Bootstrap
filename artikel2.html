@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tugas Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <style>
+          .konten{
+            margin: 0 2rem;
+            text-indent: 3rem;
+          }
+
+          .action{
+            margin-top: 10px;
+            display: flex;
+          }
+
+          .action .icon{
+            width: 1.5rem;
+            margin: 0 2rem;
+          }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" style="font-weight: bold; color: red;">JABAR 24 JAM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Berita Terkini</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Topik
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Olahraga</a></li>
+                      <li><a class="dropdown-item" href="#">Politik</a></li>
+                      <li><a class="dropdown-item" href="#">Pendidikan</a></li>
+                      <li><a class="dropdown-item" href="#">Ekonomi</a></li>
+                      <li><a class="dropdown-item" href="#">Sosial Budaya</a></li>
+                      <li><a class="dropdown-item" href="#">Otomotif</a></li>
+                      <li><a class="dropdown-item" href="#">Hiburan</a></li>
+                      <li><a class="dropdown-item" href="#">Teknologi</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Kontak Kami</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Masukkan kata kunci" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <p style="color: red; margin: 5rem 0 3px 15px;"><a href="#" style="text-decoration: none; color: red;">JABAR 24 JAM</a> / <a href="#" style="text-decoration: none; color: red;">Berita Terkini</a> / <a href="#" style="text-decoration: none; color: red;">Sosial Budaya</a></p>
+          <p style="margin: 0 3px 3px 15px;"><a href="#" style="text-decoration: none;">Olahan Makanan</a> &bull; <a href="#" style="text-decoration: none;">Lebaran</a></p>
+          <p style="margin: 0 3px 0 15px; color: gray;">Najwa Shihab - 15 April 2024 12:02 WIB</p>
+          <div class="action">
+            <a href="#"><img class="icon" src="share1.png"></a>
+            <p>250</p>
+            <a href="#"><img class="icon" src="like.png"></a>
+            <p>100</p>
+            <a href="#"><img class="icon" src="dislike.png"></a>
+            <p>5</p>
+          </div>
+
+          <h1 style="text-align: center; margin: 2rem 10px;">Resep Aneka Olahan Lebaran</h1>
+          <div style="text-align: center; margin-bottom: 2rem;">
+            <img src="olahan lebaran.jpeg" class="img-fluid" alt="..." >
+          </div>
+
+          <p class="konten">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
+          </p>
+          <p class="konten">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
+            Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+          <p class="konten">
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by 
+            Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+          </p>
+          <p class="konten">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+            a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and 
+            web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have 
+            evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          </p>
+
+
+          <div aria-label="Page navigation example" style="margin: 2rem 0;">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="artikel1.html">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="artikel1.html">1</a></li>
+              <li class="page-item active"><a class="page-link" href="artikel2.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="artikel3.html">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="artikel3.html">Next</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="container text-left" style="margin-left: 2rem; padding: 0;">
+            <div class="row">
+              <div class="col-sm-5 col-md-6 text-left">
+                <div class="komentar">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Komentar</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary" type="submit" style="margin-bottom: 2rem;">Kirim</button>
+                  <div>
+                    <b>Mama Yani</b>
+                    <p>Jadi pengen masakin buat suami. Tapi tahun ini suami lebaran di istri ke 3</p>
+                  </div>
+                  <div>
+                    <b>Bunda Rehan</b>
+                    <p>Apa enggak langu itu bumbunya enggak ditumis dulu?</p>
+                  </div>
+                  <div>
+                    <b>Vina Garut</b>
+                    <p>Saya mah mending beli jadi aja deh. RIbet kalo buat sendri mah</p>
+                  </div>
+                  <div>
+                    <b>Mamah Deudeuh</b>
+                    <p>Yang mau beli ketupat dengan harga miring sekitar ciamis tasik bisa pesen ya ke IG saya @Kupat_Kadeudeuh</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 text-center">
+                <div class="container text-center">
+                  <div class="row row-cols-1">
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin-top: 5rem;">
+                          <img src="pa ogah.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Semarak Pilkada 2024. Pa Ogah: Saya siap maju kalo diijinin istri</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel1.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin-top: 5rem;">
+                          <img src="olahan lebaran.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Resep Aneka Olahan Lebaran</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel2.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin-top: 2rem;">
+                          <img src="pernikahan.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Angka Pernikahan di Indonesia Menurun. Akankah Indonesia Mengalami Krisis Penduduk Seperti Jepang?</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel3.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin-top: 2rem;">
+                          <img src="vitalitas.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Tanaman Ini Ternyata Bisa Meningkatkan Vitalitas Pria</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel1.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin-top: 2rem;">
+                          <img src="jimny.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Suzuki Recall Semua Unit Jimny 3 Pintu</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel2.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 35rem; height: 25rem; margin:2rem 0;">
+                          <img src="seragam.jpeg" class="card-img-top" alt="..." style="width: 34.9rem; height: 10rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Seragam Sekolah Tidak Berubah. Simak Isi Peraturan Terbarunya</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="artikel3.html" class="btn btn-primary">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+    </body>
+</html>
